@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Js messaround</title>
 </head>
 <body>
-    
+    <h1>lets learn about javascript</h1>
+    <h2>lets learn about onclick and alerts</h2>
+ 
+    <a href="https://www.youtube.com"
+    onclick="alert('Hello! You are being redirected to YouTube.');">click here to watch a video</a>
+   
+    <h2>How do we display and hide text</h2>
+    <h2>whats my secret identity</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='whip the lasso im wonder woman';
+    document.getElementById('secret').style.display='block';
+    ">
+    reveal secret identity
+    </button>
+    <button onclick="document.getElementById('secret').style.display='none';
+    ">
+    Hide
+    </button>
+ 
+    <h2>how we change an image</h2>
+    <img src="images/lightbulb 2.png" id="myImage" style="width:200px;height:200px;">
+ 
+    <button onclick="document.getElementById('myImage').src='off.jpg';
+    document.getElementById('myImage').src='lightbulb 1.png'; ">
+    turn off
+    </button>
+ 
+     <button onclick="document.getElementById('myImage').src='dingle.jpg';
+    document.getElementById('myImage').src='lightbulb 2.png'; ">
+    turn on
+    </button>
+ 
+ 
+ 
+ 
+    <h1>How do we change styles with a button?</h1>
+    <p id="alice">Hi im alice</p>
+ 
+    <button onclick="document.getElementById('alice').style.color='blue';
+    document.getElementById('alice').style.fontSize='5px';">
+    eat the cake to get small
+    </button>
+ 
+   
+    <button onclick="document.getElementById('alice').style.color='blue';
+    document.getElementById('alice').style.fontSize='30px';">
+    potion  - drink me!
+    </button>
+ 
 </body>
 </html>
